@@ -1,5 +1,6 @@
 import { styled } from "styled-components";
 import { EstilosGlobais } from "./components/EstilosGlobais";
+import { Cabecalho } from "./components/Cabecalho";
 
 const FundoGradiente = styled.div`
   background: var(
@@ -14,6 +15,7 @@ function App() {
   return (
   <FundoGradiente>
     <EstilosGlobais/>
+    <Cabecalho/>
   </FundoGradiente>
   )
 }
