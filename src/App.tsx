@@ -2,6 +2,7 @@ import { styled } from "styled-components";
 import { EstilosGlobais } from "./components/EstilosGlobais";
 import { Cabecalho } from "./components/Cabecalho";
 import { BarraLateral } from "./components/BarraLateral";
+import { FigureEstilizado } from "./components/FigureEstilizado";
 
 const FundoGradiente = styled.div`
   background: var(
@@ -10,7 +11,10 @@ const FundoGradiente = styled.div`
   );
   width: 100%;
   height: 100vh;
-`;
+
+`
+
+
 
 function App() {
   return (
@@ -18,6 +22,9 @@ function App() {
     <EstilosGlobais/>
     <Cabecalho/>
     <BarraLateral/>
+    <FigureEstilizado/>
+  
+   
   </FundoGradiente>
   )
 }
