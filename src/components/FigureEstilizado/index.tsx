@@ -1,7 +1,8 @@
 import styled from "styled-components";
+import Banner from "../../assets/banner.png"
 
 const BannerEstilizado = styled.div`
-  background-image: url("src/assets/banner.png");
+  background-image: url(${Banner});
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 328px;
@@ -14,7 +15,6 @@ const BannerEstilizado = styled.div`
 
 
 `;
-
 
 const TituloEstilizado = styled.h1`
   font-weight: 400;
